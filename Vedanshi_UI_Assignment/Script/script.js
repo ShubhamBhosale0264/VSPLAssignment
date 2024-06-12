@@ -11,7 +11,7 @@ $(document).ready(function() {
 
         if (validLogins[email] && (validLogins[email] === password || validLogins[email].includes(password))) {
             sessionStorage.setItem('loggedInEmail', email);
-            window.location.href = "index.html";
+            window.location.href = "home.html";
         } else {
             alert("Invalid email or password.");
         }
@@ -37,7 +37,7 @@ $(document).ready(function() {
         var email = $('#email').val();
         var password = $('#password').val();
         if (email && password) {
-            window.location.href = 'index.html?email=' + encodeURIComponent(email);
+            window.location.href = 'home.html?email=' + encodeURIComponent(email);
         } else {
             alert('Please enter both email and password.');
         }
