@@ -38,3 +38,13 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+@media (max-width: 768px) {
+    body {
+        margin: 10px;
+    }
+    
+    button {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
