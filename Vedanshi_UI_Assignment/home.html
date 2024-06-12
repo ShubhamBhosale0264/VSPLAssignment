@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./Style/home.css">
 </head>
 <body>
-    <h2>Welcome, <span id="userEmail"></span></h2>
+    <h2>Hi, <span id="userEmail"></span></h2>
     <button id="colorFirstRow">Color 1st Row Red</button>
     <button id="colorLastRow">Color last Row Red</button>
     <button id="resetColors">Reset colors in Rows</button>
@@ -28,5 +28,12 @@
     </table>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="./Script/script.js"></script>
+    <script>
+        $(document).ready(function() {
+            var urlParams = new URLSearchParams(window.location.search);
+            var userEmail = urlParams.get('email');
+            $('#userEmail').text(userEmail);
+        });
+    </script>
 </body>
 </html>

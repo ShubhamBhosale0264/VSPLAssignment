@@ -13,9 +13,8 @@ body {
 
 .header-container {
     display: inline-flex;
-    
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: -10px;
 }
 .header2{
     margin-left: 30px;
@@ -23,11 +22,14 @@ body {
 form {
     max-width: 300px;
     margin: 0 auto;
+    }
+a{
+    text-decoration: none;
+    color: blue;
 }
-
 input {
     display: block;
-    margin: 10px auto;
+    margin: 3px 0px;
     padding: 8px;
     width: 100%;
     box-sizing: border-box;
@@ -35,7 +37,7 @@ input {
 
 .password {
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 .container {
@@ -43,6 +45,7 @@ input {
     align-items: center;
     justify-content: center;
     font-size: 14px;
+    margin:10px 0px;
 }
 
 #termsCheckbox {
@@ -58,6 +61,7 @@ button {
     margin-top: 10px;
     width: 100%;
     box-sizing: border-box;
+    margin-bottom:80px;
 }
 
 button:hover {

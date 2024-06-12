@@ -32,3 +32,15 @@ $(document).ready(function() {
         $('table tbody tr').css('background-color', '');
     });
 });
+$(document).ready(function() {
+    $('#loginButton').on('click', function() {
+        var email = $('#email').val();
+        var password = $('#password').val();
+        if (email && password) {
+            window.location.href = 'home.html?email=' + encodeURIComponent(email);
+        } else {
+            alert('Please enter both email and password.');
+        }
+    });
+});
+

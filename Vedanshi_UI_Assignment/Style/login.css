@@ -7,16 +7,43 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
-
+a{
+    text-decoration: none;
+    color: blue;
+}
 h2 {
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
-
+.header-container {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.header2{
+    margin-left: 100px;
+}
 form {
-    margin-bottom: 20px;
+    margin: -20px;
 }
-
+#email{
+    margin-bottom: -8px;}
+#loginForm{
+    margin-bottom: -20px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: -7px;
+}
+.chbx {
+    display: inline;
+    margin-left: 60px;
+}
+.tc{
+    display: inline;
+    margin-left: 7px;
+}
 input {
     display: block;
     margin: 10px auto; /* Center the input horizontally */
@@ -24,14 +51,18 @@ input {
     width: 100%;
     max-width: 300px;
 }
-
+.fp{
+    margin-left: 72px;
+}
 button {
+    width: 74%;
     padding: 10px 20px;
     background-color: #007BFF;
     color: white;
     border: none;
     cursor: pointer;
     margin-top: 10px;
+    margin-bottom:80px;
 }
 
 button:hover {
