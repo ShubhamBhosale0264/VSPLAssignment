@@ -44,5 +44,4 @@ http://127.0.0.1:5500/Vedanshi_UI_Assignment/fp.HTML
 Tips for a Professional Setup:
 Ensure your Git and VS Code are up to date.
 Familiarize yourself with the Live Server extension's features.
-Keep your repository updated by pulling the latest changes from the main branch.
 By following these steps, you should be able to set up and run the project smoothly
